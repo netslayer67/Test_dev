@@ -1,0 +1,63 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    /* this makes the user list display vertically */
+    align-items: center;
+    /* this centers the items in the column */
+    justify-content: flex-start;
+    /* this aligns the items to the start of the column */
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.user-container {
+    margin-right: 225px !important;
+    /* display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center; */
+}
+
+.user-container button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #fff;
+    text-align: left;
+}
+
+.user-container button img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-container button span {
+    margin-right: 10px;
+}
